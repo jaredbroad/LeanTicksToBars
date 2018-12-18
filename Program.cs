@@ -16,6 +16,7 @@ namespace LeanTicksToBars
         {
             if (args.Length != 5)
             {
+                // HELLO
                 Console.WriteLine("Usage: LeanTicksToBars SYMBOLS TYPE MARKET FROMDATE TODATE");
                 Console.WriteLine("SYMBOLS = eg EURUSD,USDJPY");
                 Console.WriteLine("TYPE = Forex/Cfd");
