@@ -18,11 +18,11 @@ namespace LeanTicksToBars
             {
                 // HELLO and HI
                 Console.WriteLine("Usage: LeanTicksToBars SYMBOLS TYPE MARKET FROMDATE TODATE");
-                Console.WriteLine("SYMBOLS = eg EURUSD,USDJPY");
-                Console.WriteLine("TYPE = Forex/Cfd");
-                Console.WriteLine("MARKET = eg oanda");
-                Console.WriteLine("FROMDATE = yyyymmdd");
-                Console.WriteLine("TODATE = yyyymmdd");
+                Console.WriteLine("SYMBOLS = "EURUSD");
+                Console.WriteLine("TYPE = Forex/CR");
+                Console.WriteLine("MARKET =   oanda");
+                Console.WriteLine("FROMDATE = 2017/11/20");
+                Console.WriteLine("TODATE = 2019/12/05");
                 Environment.Exit(1);
             }
 
